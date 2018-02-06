@@ -1,0 +1,5 @@
+C:\Users\Satoshi Nakamoto\Documents\Visual Studio 2015\Projects\GhostKey\GhostKey\bin\Debug\GhostKey.exe.config
+C:\Users\Satoshi Nakamoto\Documents\Visual Studio 2015\Projects\GhostKey\GhostKey\bin\Debug\GhostKey.exe
+C:\Users\Satoshi Nakamoto\Documents\Visual Studio 2015\Projects\GhostKey\GhostKey\bin\Debug\GhostKey.pdb
+C:\Users\Satoshi Nakamoto\Documents\Visual Studio 2015\Projects\GhostKey\GhostKey\obj\Debug\GhostKey.exe
+C:\Users\Satoshi Nakamoto\Documents\Visual Studio 2015\Projects\GhostKey\GhostKey\obj\Debug\GhostKey.pdb
