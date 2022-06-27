@@ -6,15 +6,16 @@ namespace GhostKey
 {
     public partial class Crack
     {
+        private const int _WAIT = 59000;
+        
         public static void Main()
         {
             while(true)
             {
                 PreventSleep();
-                Thread.Sleep(59000);
+                PrintTime();
+                Thread.Sleep(_WAIT);
             }
-
-            return;
         }
 
         [FlagsAttribute]
@@ -37,6 +38,12 @@ namespace GhostKey
             SleepUtil.SetThreadExecutionState(EXECUTION_STATE.ES_CONTINUOUS 
                                             | EXECUTION_STATE.ES_DISPLAY_REQUIRED
                                             | EXECUTION_STATE.ES_SYSTEM_REQUIRED);
+        }
+        
+        public static void PrintTime()
+        {
+            Console.Clear();
+            Console.Out.WriteLine(String.Format("Waking at: {0}", DateTime.Now));
         }
     }
 }
